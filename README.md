@@ -6,7 +6,7 @@ Join The Battle to Save The Net!
 SaveNetNeutralityBot
 ------
 
-### Let's Save Our Internet from ![this](https://twitter.com/RoKhanna/status/923701871092441088/photo/1?ref_src=twsrc%5Etfw&ref_url=https%3A%2F%2Fwww.theverge.com%2F2017%2F11%2F22%2F16691506%2Fportugal-meo-internet-packages-net-neutrality-ajit-pai-plan)
+### Let's Save Our Internet from ![this](https://pbs.twimg.com/media/DNGlrABUIAAr9RO.jpg:large)
 
 
 
