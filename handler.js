@@ -30,7 +30,7 @@ module.exports.saveTheWebBot = (event, context, callback) => {
     console.log("Hello?");
   T.get("search/tweets", {
     q: "#NetNeutrality",
-    count: 1
+    count: 5
   }, (errN, dataN, resN) => {
     if (errN) {
       console.error(errN);

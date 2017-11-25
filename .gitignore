@@ -5,8 +5,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#config files
+# Config Files
+twit.config.js*
 twit.config.js
+
+# Lamda Serverless
+.serverless
 
 # Runtime data
 pids
@@ -56,7 +60,3 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
-
-# dotenv environment variables file
-.env
-twit.config.js
