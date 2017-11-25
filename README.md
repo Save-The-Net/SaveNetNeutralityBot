@@ -1,7 +1,7 @@
 Join The Battle to Save The Net!
 ======
 
-[Setting Up Your Twitter Bot][Setting Up Your Twitter Bot]
+[Setting Up Your Twitter Bot](#Setting Up Your Twitter Bot)
 
 
 
@@ -20,6 +20,6 @@ The accounts have been established for years, so using them to tweet and encoura
 
 
 
-### Setting Up Your Twitter Bot
+## Setting Up Your Twitter Bot
 
 
