@@ -23,7 +23,6 @@ this.initBot = (status) => {
 }
 
 module.exports.saveTheWebBot = (event, context, callback) => {
-    console.log("Hello?");
   T.get("search/tweets", {
     q: "#NetNeutrality",
     count: 5
