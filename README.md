@@ -5,7 +5,12 @@ Join The Battle to Save The Net!
 SaveNetNeutralityBot
 ------
 
+
+
 #### Let's Save Our Internet from turning into this![this](http://www.4kshooters.net/wp-content/uploads/2014/06/netneutralpricing2.jpg)
+
+
+
 
 CrashOverride and I setup this weekend planning to make an Twitter bot army to inform everyone what disolving Net Neutrality will do to our beloved internet. Twitter bots are free to make, and using aws Lambda as your server gives you 1 million free requests a month. After that it's still only 20 &#162; per million. Twitter's tweet limit is 15 tweets every 15 minutes. So we figured we could get about 15 million+ tweets out informing and campaigning to keep Net Netruality. We don't know if it will be enough, or do anything, but we have to try. Being new to bot making, we quickly found out that our bots got shut down quickly. Twitter's automation kept flagging our bots. We hit the stumbing block and we weren't sure how'd we keep any bot alive long enough for it to be worth the effort of deploying it. We decided to finally read Twitter's rules regarding bots. Apparently tweeting at people who aren't your followers is no no if do it to may times as a bot, you can no longer post as a bot. We weren't sure how to get around this in order to get the word out. Then an idea hit us, what if we turned our personal Twitter accounts into bots?
 
