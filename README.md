@@ -1,7 +1,7 @@
 Join The Battle to Save The Net!
 ======
 
-[Setting Up Your Twitter Bot](#Setting Up Your Twitter Bot)
+[Setting Up Your Twitter Bot][#Setting Up Your Twitter Bot]
 
 
 
