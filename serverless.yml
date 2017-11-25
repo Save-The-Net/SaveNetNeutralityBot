@@ -9,6 +9,8 @@
 # For full config options, check the docs:
 #    docs.serverless.com
 #
+#   This is the standard Serverless Init (slightly modified)
+#
 # Happy Coding!
 
 service:  save-net-neutrality-bot
@@ -25,8 +27,8 @@ provider:
   runtime: nodejs6.10
 
 # you can overwrite defaults here
-  stage: dev
-  region: us-east-1
+  stage: YOUR_STAGE_ENV
+  region: YOUR_STAGE_REGION
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:

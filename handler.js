@@ -2,28 +2,34 @@
 const Twit = require("twit");
 const T = new Twit(require("./twit.config.js"));
 
-//count Twitter MaxCount
-const MAX_COUNT = 200;
-const LAST_ID_K = "Last ID";
-
 this.initBot = (status) => {
-    console.log("status: ", status);
-    let tweet = "<Save the net! https://www.battleforthenet.com/>" + " @" + status.user.screen_name + " " + status.text;
-  console.log("tweet: ", tweet);
+  console.log("STATUS: ", status);
   console.log("----------------------------------------");
+
+  let tweet = "<Save the Net! https://www.battleforthenet.com/>" + " @" + status.user.screen_name + " " + status.text;
+  console.log("TWEET: ", tweet);
+  console.log("----------------------------------------");
+
   T.post("statuses/update", {
     status: tweet
-  }, (errU0, dataU0) => {
-    if (errU0) {
-      console.log("ERROR: ", errU0);
-      console.log("----------------------------------------");
-      console.log(errU0.twitterReply.errors);
+  }, (err, res) => {
+    if (err) {
+      console.log("TWEET ERROR: ", err);
     } else {
-      console.log(" response dataU0: ", dataU0);
+      console.log("TWEET RESPONSE: ", res);
     }
   });
-
-//   setTimeout(() => {console.log("waiting....") }, 10000);
+  
+  T.post("friendships/create", {
+      user_id: status.user.id,
+      follow: true
+  }, (err, res) => {
+      if (err) {
+          console.log("FOLLOW ERROR: ", err);
+      } else {
+          console.log("FOLLOW RESPONSE: ", res);
+      }
+  });
 }
 
 module.exports.saveTheWebBot = (event, context, callback) => {
@@ -31,13 +37,13 @@ module.exports.saveTheWebBot = (event, context, callback) => {
   T.get("search/tweets", {
     q: "#NetNeutrality",
     count: 5
-  }, (errN, dataN, resN) => {
-    if (errN) {
-      console.error(errN);
+  }, (err, res) => {
+    if (err) {
+      console.error(err);
     } else {
-    //   console.log("dataN: ", dataN);
-      for (let status of dataN.statuses) {
-        // console.log("status: ", status);
+      // console.log("SEARCH ERROR: ", dataN);
+      for (let status of res.statuses) {
+        // console.log("SEARCH RESPONSE: ", status);
         this.initBot(status);
       }
     }
