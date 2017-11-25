@@ -1,6 +1,10 @@
 Join The Battle to Save The Net!
 ======
 
+[Setting Up Your Twitter Bot][Setting Up Your Twitter Bot]
+
+
+
 ## Help Keep the Internet Free and Open, Turn Your Twitter Acccount Into a Net Neutrality Campaign Bot
 
 SaveNetNeutralityBot
@@ -12,6 +16,10 @@ CrashOverride and I setup this weekend planning to make an Twitter bot army to i
 
 The accounts have been established for years, so using them to tweet and encourage activism seem like the solution. Not quite the scale we were hoping for, but maybe we could get some retweets, or maybe we can get our friends to do it too?! Twitter bots are pretty much free with an aws account. If we wrote a bot that was easily configurable, we could share it with our friends who could also tweet to their friends. Next step seemed obvious, let's put out a basic campaign bot that tweets about Net Neutrality, tweets links to [Battle for the Net](https://www.battleforthenet.com/), the [December 7th Protests](http://verizonprotests.com/), retweet trending tweets concerning #NetNeutrality, and rally calls for activism. We'd make it as easily configurable as possible, and try to write the best documentation to help even the most junior programmer with a credit card a chance to the launch a Net Neutrality Campaign Bot to help save the Net! This is that attempt, we hope you'll join us and help accomplish our goal. Hack the Planet!
 
-1. 
+
+
+
+
+### Setting Up Your Twitter Bot
 
 
