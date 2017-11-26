@@ -46,11 +46,11 @@ Install [Git](https://git-scm.com/downloads). Then inside your terminal do [this
 
 ## OK-Let's-Wire-It-Up!
 
-Clone this repository and run `npm install`.
+Clone this repository and run `npm install`. 
 
+Take your Consumer Key, Cosumer Secret, Access Token, and Access Token Secret and enter in the temp.twit.config file. Then rename that same you entered your keys into, to twit.config. If you're using a repo make sure it's still on the .gitignore file because you do not want to commit that info.
 
-
-
+Now in your terminal if you type `npm start` the bot should execute locally. Once we get setup with AWS you can launch this puppy!
 
 ## AWS-Setup
 
