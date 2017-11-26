@@ -27,8 +27,8 @@ provider:
   runtime: nodejs6.10
 
 # you can overwrite defaults here
-  stage: danjenator
-  region: us-east-1
+  stage: YOUR_ENV (dev, prod)
+  region: YOUR_AWS_REGION (us-east-1, us-west-1)
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
