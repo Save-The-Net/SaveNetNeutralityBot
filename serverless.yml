@@ -71,7 +71,7 @@ functions:
     handler: handler.saveTheWebBot
     events:
       - schedule:
-          rate: rate(5 minutes)
+          rate: rate(15 minutes)
           enabled: true
 
 #    The following are a few example events you can configure
