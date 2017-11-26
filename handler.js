@@ -23,7 +23,6 @@ function retweetHashTags() {
 
 module.exports.saveTheWebBot = (event, context, callback) => {
 
-
   retweetHashTags();
 
     //console.log("tweets: ", tweets);
@@ -41,4 +40,5 @@ module.exports.saveTheWebBot = (event, context, callback) => {
 
     // let searchResults = API.search(hashtags);
     // API.followAll(searchResults);
+
 };
