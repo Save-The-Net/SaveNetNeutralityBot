@@ -38,11 +38,15 @@ If don't already have NodeJS installed, go [here](https://nodejs.org/en/) to dow
   
 ## Install-Serverless
   
-Inside you terminal type `npm i -g serverless`.
+Inside you terminal type `npm i -g serverless`. Serverless is a framework we'll use to help us deploy and manage our lambda function controlling the bot. They have great [documentation](https://serverless.com/framework/docs/providers/aws/guide/quick-start/).
 
 ## Install-and-Configure-Git
 
-Install [Git](https://git-scm.com/downloads). Then inside your terminal do [this](https://help.github.com/articles/setting-your-username-in-git/) and [that](https://help.github.com/articles/setting-your-commit-email-address-in-git/).
+Install [Git](https://git-scm.com/downloads). Then inside your terminal do [this](https://help.github.com/articles/setting-your-username-in-git/) and [that](https://help.github.com/articles/setting-your-commit-email-address-in-git/). 
+
+If this is your first time using Git it can be a little tricky at first, but you'll only need to know basic commands to setup the bot. For more information about Git here's an easy to read [cheat sheet](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html) for all the common Git commands you'll need, which isn't many.
+
+For more
 
 ## OK-Let's-Wire-It-Up!
 
@@ -60,7 +64,7 @@ Sign up for [AWS](https://portal.aws.amazon.com/billing/signup#/start).
 
 Next you'll need to install [python](https://www.python.org/downloads/) in order to install awscli. You won't need to know any python to deploy this bot, the awscli runs on it. Type `pip --version` to verify installation.
 
-After python has be successfully installed, you can use python's package manager to install awscli by typing `pip install awscli` in your terminal. After that you'll configure need configure it following these [instructions](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html).
+After python has be successfully installed, you can use python's package manager to install awscli by typing `pip install awscli` in your terminal. After that you'll configure need configure it following these [instructions](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html). Here is serverless's documenation on [setting up credentials](https://serverless.com/framework/docs/providers/aws/guide/credentials/).
 
 After this is done you're ready for deployment!
 
