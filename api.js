@@ -5,13 +5,13 @@ const T = new Twit(require("./twit.config.js"));
 const API = {
     search: (searchTerm, numberToGet) => {
       return new Promise((resolve, reject) => {
-        console.log("searchTerm: ", searchTerm);
-        console.log("numberToGet: ", numberToGet);
+        //console.log("searchTerm: ", searchTerm);
+        //console.log("numberToGet: ", numberToGet);
         T.get("search/tweets", {
             q: searchTerm,
             count: numberToGet
         }).then(res => {
-            console.log("SEARCH RESPONSE: ", res.data);
+            //console.log("SEARCH RESPONSE: ", res.data);
             resolve(res.data.statuses);
         }).catch(err => {
             console.error("SEARCH ERROR: ", err);
@@ -29,12 +29,13 @@ const API = {
         });
     },
     retweet: (tweetId) => {
+        console.log("tweetId: ", tweetId);
         T.post("statuses/retweet", {
             id: tweetId
         }).then(res => {
-            console.log("RETWEET RESPONSE: ", res);
+            console.log("RETWEET RESPONSE: ", res.data);
         }).catch(err => {
-            console.log("RETWEET ERROR: ", err);
+            console.log("RETWEET ERROR: ", err.data.errors);
         });
     },
     retweetAll: (tweetArray, botText) => {
