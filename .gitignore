@@ -6,8 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Config Files
-twit.config.js*
-twit.config.js
+#twit.config.js*
+#twit.config.js
 
 # Lamda Serverless
 .serverless
