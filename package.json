@@ -1,6 +1,6 @@
 {
   "name": "save-net-neutrality-bot",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A bot built to reweet tweets containing #NetNeutrality, #SaveNetNeutrality, and other similar phrases with instructions on how to help #SaveNetNetruality.",
   "main": "handler.js",
   "author": "C3r1alK1ll3r, Cra5hOv3r1d3",
