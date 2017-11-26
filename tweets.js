@@ -19,12 +19,12 @@ module.exports = {
     "Add your own #NetNeutrality Campaign Bot to Your Twitter Account. https://github.com/Save-Net-Neutrality/SaveNetNeutralityBot Keep the word moving with #SaveTheNetBot #SaveNetNeutrality #DoNotGoGentleIntoThatGoodNight #Rage #RageAgainstTheDyingOfTheLight #CyberMonday"
   ],
   rageTweets: [
-    "Do not go gentle into that good night,\nOld age should burn and rave at close of day;\nRage, rage against the dying of the light.\n   https://www.battleforthenet.com/ #BattleForTheNet #NetNeutrality #SaveNetNeutrality #SaveTheNetBot #CyberMonday https://tinyurl.com/pe3q83q",
-    "Though wise men at their end know dark is right,\nBecause their words had forked no lightning they\nDo not go gentle into that good night.\n https://www.battleforthenet.com/ #BattleForTheNet #NetNeutrality #SaveNetNeutrality #SaveTheNetBot #CyberMonday https://tinyurl.com/pe3q83q",
-    "Good men, the last wave by, crying how bright\nTheir frail deeds might have danced in a green bay,\nRage, rage against the dying of the light.\n   https://www.battleforthenet.com/ #BattleForTheNet #NetNeutrality #SaveTheNetBot #CyberMonday https://tinyurl.com/pe3q83q",
-    "Wild men who caught and sang the sun in flight,\nAnd learn, too late, they grieved it on its way,\nRage, Do not go gentle into that good night.\n https://www.battleforthenet.com/ #BattleForTheNet #NetNeutrality #SaveTheNetBot #CyberMonday https://tinyurl.com/pe3q83q",
-    "Grave men, near death, who see with blinding sight\nBlind eyes could blaze like meteors and be gay,\nRage, rage against the dying of the light.\n https://www.battleforthenet.com/ #BattleForTheNet #NetNeutrality #SaveTheNetBot #CyberMonday https://tinyurl.com/pe3q83q",
-    "And you, my father, there on the sad height,\nCurse, bless, me now with your fierce tears, I pray.\nDo not go gentle into that good night.\nRage, rage against the dying of the light.\n https://www.battleforthenet.com/ #NetNeutrality #SaveTheNetBot https://tinyurl.com/pe3q83q",
+    "Do not go gentle into that good night,\nOld age should burn and rave at close of day;\nRage, rage against the dying of the light.\n   #BattleForTheNet #NetNeutrality #SaveNetNeutrality #SaveTheNetBot #CyberMonday https://www.battleforthenet.com/ ",
+    "Though wise men at their end know dark is right,\nBecause their words had forked no lightning they\nDo not go gentle into that good night.\n #BattleForTheNet #NetNeutrality #SaveNetNeutrality #SaveTheNetBot #CyberMonday https://www.battleforthenet.com/ ",
+    "Good men, the last wave by, crying how bright\nTheir frail deeds might have danced in a green bay,\nRage, rage against the dying of the light.\n  #BattleForTheNet #NetNeutrality #SaveTheNetBot #CyberMonday https://www.battleforthenet.com/ ",
+    "Wild men who caught and sang the sun in flight,\nAnd learn, too late, they grieved it on its way,\nRage, Do not go gentle into that good night.\n #BattleForTheNet #NetNeutrality #SaveTheNetBot #CyberMonday https://www.battleforthenet.com/ ",
+    "Grave men, near death, who see with blinding sight\nBlind eyes could blaze like meteors and be gay,\nRage, rage against the dying of the light.\n #BattleForTheNet #NetNeutrality #SaveTheNetBot #CyberMonday https://www.battleforthenet.com/",
+    "And you, my father, there on the sad height,\nCurse, bless, me now with your fierce tears, I pray.\nDo not go gentle into that good night.\nRage, rage against the dying of the light.\n #NetNeutrality #SaveTheNetBot https://www.battleforthenet.com/",
   ],
   mediaTweets: [
     "Save the Net! Protect #NetNeutrality https://youtu.be/wQtiIazfoQM \n\n https://www.battleforthenet.com/ #BattleForTheNet #SaveTheNetBot #DoNotGoGentleIntoThatGoodNight #CyberMonday"

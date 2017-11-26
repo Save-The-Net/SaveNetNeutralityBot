@@ -28,7 +28,7 @@ const tweets = {
       API.tweet(preparedTweets.knowledgeTweets[Math.floor(Math.random() * preparedTweets.knowledgeTweets.length)]);
     }
   },
-  rageAgainst: (numberOfTweets, all) => {
+  rageRageAgainstTheDyingOfTheLight: (numberOfTweets, all) => {
     if(all) {
       numberOfTweets = preparedTweets.rageTweets.length;
     }
