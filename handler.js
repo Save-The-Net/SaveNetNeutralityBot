@@ -3,7 +3,7 @@ const API = require("./api");
 
 function retweetHashTags() {
   const hashtags = ["#NetNeutrality", "#SaveNetNeutrality", "#BattleForTheNet", "#AjitPaiSucks", "#DefendNetNeutrality", "#SaveTheInternet"];
-  for(let i = 0; i < 1; i++) {
+  for(let i = 0; i < 3; i++) {
     //const random = (i === 0) ? 0 : Math.floor(Math.random() * hashtags.length);
     //console.log("random: ", random);
     const random = Math.floor(Math.random() * hashtags.length);
@@ -35,13 +35,16 @@ function tweetAboutHowToFight() {
     "Add your own #NetNeutrality Campaign Bot to Your Twitter Account. https://github.com/Save-Net-Neutrality/SaveNetNeutralityBot #SaveTheNet by keeping the word moving while you're on the move, or taking a break. #SaveTheNetBot will help everyone spread info about how to #SaveNetNeutrality and call on your followers to #DefendTheNet"
   ];
   API.tweet(tweets[Math.floor(Math.random() * tweets.length]);
+  API.tweet(tweets[Math.floor(Math.random() * tweets.length]);
+  API.tweet(tweets[Math.floor(Math.random() * tweets.length]);
 }
 
 
 module.exports.saveTheWebBot = (event, context, callback) => {
 
-  retweetHashTags();
   tweetAboutHowToFight();
+  retweetHashTags();
+
 
     //console.log("tweets: ", tweets);
 
