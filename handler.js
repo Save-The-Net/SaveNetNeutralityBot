@@ -10,11 +10,13 @@ module.exports.saveTheWebBot = (event, context, callback) => {
       //console.log(tweets);
 
       console.log("tweets[0].retweeted_status: ", tweets[0].retweeted_status);
-      console.log("tweets[0].id: ", tweets[0].id);
+
 
       if(tweets[0].retweeted_status) {
+        console.log("tweets[0].retweeted_status.id: ", tweets[0].retweeted_status.id);
         API.retweet(tweets[0].retweeted_status.id);
       } else {
+        console.log("tweets[0].id: ", tweets[0].id);
         API.retweet(tweets[0].id);
       }
 
