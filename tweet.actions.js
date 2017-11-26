@@ -27,6 +27,18 @@ const tweets = {
     for(let i = 0; i < numberOfTweets; i++) {
       API.tweet(preparedTweets.knowledgeTweets[Math.floor(Math.random() * preparedTweets.knowledgeTweets.length)]);
     }
+  },
+  rageAgainst: (numberOfTweets, all) => {
+    if(all) {
+      numberOfTweets = preparedTweets.rageTweets.length;
+    }
+    for(let i = 0; i < numberOfTweets; i++) {
+      if(all) {
+        API.tweet(preparedTweets.rageTweets[i]);
+      } else {
+        API.tweet(preparedTweets.rageTweets[Math.floor(Math.random() * preparedTweets.rageTweets.length)]);
+      }
+    }
   }
 }
 
