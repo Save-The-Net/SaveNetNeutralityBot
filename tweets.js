@@ -8,7 +8,7 @@
 const isps = ["Comcast", "AT&T", "Verzion", "Charter Sprectrum", "Cricket", "CenturyLink", "Sprint", "T-Mobile"];
 
 module.exports = {
-
+  hashtags: ["#NetNeutrality", "#SaveNetNeutrality", "#BattleForTheNet", "#AjitPaiSucks", "#DefendNetNeutrality", "#SaveTheInternet"],
   knowledgeTweets: [
     "Do you really want to start paying " + isps[Math.floor(Math.random() * isps.length)] + " an ADDITION fee just to check your twitter feed? No? Then write and call your representatives now https://www.battleforthenet.com/ and them want to keep #NetNeutrality Then retweet to all your followers!",
     "Tell the White House That You Want To Keep #NetNeutrality! Sign this White House petition and retweet to your followers! https://tinyurl.com/yc5vp5m3 #SaveNetNeutrality",
@@ -18,5 +18,4 @@ module.exports = {
     "Have you called Congress today? https://www.battleforthenet.com/ Take Action Now Before It's To Late! Call and Retweet to #SaveTheNet #SaveNetNeutrality #NetNeutrality #SaveTheNetBot",
     "Add your own #NetNeutrality Campaign Bot to Your Twitter Account. https://github.com/Save-Net-Neutrality/SaveNetNeutralityBot #SaveTheNet by keeping the word moving while you're on the move, or taking a break. #SaveTheNetBot will help everyone spread info about how to #SaveNetNeutrality and call on your followers to #DefendTheNet"
   ]
-
 }
