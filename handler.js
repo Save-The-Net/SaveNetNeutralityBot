@@ -7,7 +7,20 @@ module.exports.saveTheWebBot = (event, context, callback) => {
     let hashtag = "#NetNeutrality";
 
     API.search(hashtag, 1).then((tweets) => {
-      console.log("tweets: ", tweets);
+      //console.log(tweets);
+
+      console.log("tweets[0].retweeted_status: ", tweets[0].retweeted_status);
+      console.log("tweets[0].id: ", tweets[0].id);
+
+      if(tweets[0].retweeted_status) {
+        API.retweet(tweets[0].id);
+      } else {
+        API.retweet(tweets[0].id);
+      }
+
+
+
+
     }).catch((err) => {
       console.log("ERROR: ", err);
     });
