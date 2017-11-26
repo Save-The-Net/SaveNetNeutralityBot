@@ -11,7 +11,7 @@ const API = {
             q: searchTerm,
             count: numberToGet
         }).then(res => {
-            //console.log("SEARCH RESPONSE: ", res.data);
+            console.log("SEARCH SUCCESS");
             resolve(res.data.statuses);
         }).catch(err => {
             console.error("SEARCH ERROR: ", err);
@@ -24,7 +24,7 @@ const API = {
         T.post("statuses/update", {
             status: botText
         }).then(res => {
-            console.log("TWEET RESPONSE: ", res);
+            console.log("TWEET SUCCESS");
         }).catch(err => {
             console.log("TWEET ERROR: ", err);
         });
@@ -34,7 +34,7 @@ const API = {
         T.post("statuses/retweet", {
             id: tweetId
         }).then(res => {
-            console.log("RETWEET RESPONSE: ", res.data);
+            console.log("RETWEET SUCCESS");
         }).catch(err => {
             console.log("RETWEET ERROR: ", err.data.errors);
         });
