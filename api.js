@@ -20,8 +20,9 @@ const API = {
       });
     },
     tweet: (botText) => {
+      console.log("botText: ", botText);
         T.post("statuses/update", {
-            status: botTweet
+            status: botText
         }).then(res => {
             console.log("TWEET RESPONSE: ", res);
         }).catch(err => {
