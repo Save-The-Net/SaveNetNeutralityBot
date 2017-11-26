@@ -27,7 +27,7 @@ provider:
   runtime: nodejs6.10
 
 # you can overwrite defaults here
-  stage: dev
+  stage: dev-1
   region: us-east
 
 # you can add statements to the Lambda function's IAM Role here
