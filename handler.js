@@ -6,11 +6,15 @@ module.exports.saveTheWebBot = (event, context, callback) => {
 
     let hashtag = "#NetNeutrality";
 
-    var tweets = API.search(hashtag);
+    API.search(hashtag, 1).then((tweets) => {
+      console.log("tweets: ", tweets);
+    }).catch((err) => {
+      console.log("ERROR: ", err);
+    });
 
-    for(let tweet in tweets) {
-      console.log("tweet: ", tweet);
-    }
+    //console.log("tweets: ", tweets);
+
+    //API.retweet(tweets.statuses[0].id);
 
 
     // Hastag array to search

@@ -3,18 +3,21 @@ const Twit = require("twit");
 const T = new Twit(require("./twit.config.js"));
 
 const API = {
-    search: (hashtags) => {
-        console.log(hashtags);
+    search: (searchTerm, numberToGet) => {
+      return new Promise((resolve, reject) => {
+        console.log("searchTerm: ", searchTerm);
+        console.log("numberToGet: ", numberToGet);
         T.get("search/tweets", {
-            q: hashtags,
-            count: 5
+            q: searchTerm,
+            count: numberToGet
         }).then(res => {
             console.log("SEARCH RESPONSE: ", res.data);
-            return res.data.statuses;
+            resolve(res.data.statuses);
         }).catch(err => {
             console.error("SEARCH ERROR: ", err);
-            return err;
+            reject(err);
         });
+      });
     },
     tweet: (botText) => {
         T.post("statuses/update", {
@@ -25,11 +28,9 @@ const API = {
             console.log("TWEET ERROR: ", err);
         });
     },
-    retweetOne: (tweet, botText) => {
-        let botTweet = `${botText} @${tweet.user.screen_name} `;
-        T.post("statuses/update", {
-            status: botTweet,
-            in_reply_to_status_id: tweet.id
+    retweet: (tweetId) => {
+        T.post("statuses/retweet", {
+            id: tweetId
         }).then(res => {
             console.log("RETWEET RESPONSE: ", res);
         }).catch(err => {
