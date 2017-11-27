@@ -19,8 +19,8 @@ The accounts have been established for years, so using them to tweet and encoura
 ## Let's Get Setup!
 
 * [Tech Stack](#tech)
-* [Setting Up Your Twitter Bot][1]
-* [Install Node][2]
+* [Setting Up Your Twitter Bot](#twit-bot)
+* [Install Node](#node)
 * [Install Serverless][3]
 * [Install-and-Configure-Git][4]
 * [OK-Let's-Wire-It-Up!][5]
@@ -44,9 +44,9 @@ Don't worry if you haven't used some of these technologies or services before. A
 </a>
   
 Login into your twitter account. After you login go to https://apps.twitter.com then click on the button that says _Create New App_. On the next screen you'll be prompted to name your app, give it a description, and it's website. Then name your app and just use your twitter profile url as your website. Hit confirm and there you go. Your account now has a bot. Inside your bot's setting click on the Keys and Access Tokens tab. Here you'll find your Consumer Key (API Key) and Consumer Secret (API Secret) keys. On the same page under this section you'll see a button that creates your Access Tokens. Press it. This creates your Access Token and Access Token Secret keys, you'll need these and your Consumer keys for the bot.
-  
-## Install-Node
-  
+<a name="node">  
+## Install Node
+</a>  
 If don't already have NodeJS installed, go [here](https://nodejs.org/en/) to download and install. To verify installation open your terminal and type `node -v`. If a version is displayed the installation was a success. Do the same with npm with `npm -v`.
   
 ## Install-Serverless
