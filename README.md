@@ -25,12 +25,12 @@ The accounts have been established for years, so using them to tweet and encoura
 * [OK-Let's-Wire-It-Up!][5]
 * [AWS-Setup][6]
 * [Activate-the-Bot][7]
-* [The-Plan][8]
+* [The-Plan](#the-plan)
 
 
 ## Setting-Up-Your-Twitter-Bot
   
-This is pretty straight forward. Login into your twitter account. After you login go to https://apps.twitter.com then click on the button that says _Create New App_. On the next screen you'll be prompted to name your app, give it a description, and it's website. The name and description are local to your account and just use your twitter profile url as your website. It confirm and there you go. Your bot is ready. Let's set up your local environment and get you an aws account.
+This is pretty straight forward. Login into your twitter account. After you login go to https://apps.twitter.com then click on the button that says _Create New App_. On the next screen you'll be prompted to name your app, give it a description, and it's website. The name your app and just use your twitter profile url as your website. It confirm and there you go. Your bot is ready. Let's set up your local environment and get you an aws account.
   
 ## Install-Node
   
@@ -73,7 +73,7 @@ After this is done you're ready for deployment!
 Once you're ready, open your terminal and type `npm run deploy`. Your bot with be deployed to aws's Lambda and will wake up and perform it's function on the intervals set in the serverless.yml file. You've now successfully launched your own Net Neutrality campaign bot! 
 
 
-
+<a name="the-plan"></a>
 ## The-Plan
 
 Now that your bot is working, go to your lambda's settings in your browser and temporarily disable it's trigger. Keep the bot ready to launch. The first wave begins at 6:00 A.M. EST, the second should follow at 5:30 A.M. MST, and third at 10:00 A.M. WST. In theory no account is violating terms of service, because you only contacting your followers and have long term base build by being a Twitter user. This bot will help you solidify your stance for Net Neutrality. There's no reason to fear that your account will get banned from twitter either! The worst case scenario is that your bot is no longer able to tweet. You can still tweet through your app or browser. Our goal with this bot is to gain visiblity for Net Neutrality while following Twitter's terms and services.
