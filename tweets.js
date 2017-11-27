@@ -34,6 +34,7 @@ module.exports = {
     "How many times do we have to do this? Here's John Oliver from 6 months ago, the last time we had to do this! Go complain --> http://www.gofccyourself.com/ #NetNeutrality #BattleForTheNet #SaveTheNetBot #DoNotGoGentle #CyberMonday \n https://youtu.be/92vuuZt7wak",
     "Really? And we did this 3 years ago too! Don't stop standing up for your right to equal access of information! #NetNeutrality #BattleForTheNet #DoNotGoGentle #CyberMonday\n http://www.gofccyourself.com/ \n https://www.battleforthenet.com/ \n https://youtu.be/fpbOEoRrHyU",
     "Take it from the Wall Street Journal, #NetNeutrality is good thing! Go here and tell your congressman you agree today --> https://www.battleforthenet.com/ #SaveTheNetBot #BattleForTheNet #DoNotGoGentle #CyberMonday \n https://youtu.be/p90McT24Z6w",
-    "Take it from #AdamKnowsEverything, we need #NetNeutrality Go here and tell your congress people you agree --> https://www.battleforthenet.com/ #SaveNetNeutrality #SaveTheNetBot #DoNotGoGentle #CyberMonday \n https://youtu.be/xjOxNiHUsZw"
+    "Take it from #AdamKnowsEverything, we need #NetNeutrality Go here and tell your congress people you agree --> https://www.battleforthenet.com/ #SaveNetNeutrality #SaveTheNetBot #DoNotGoGentle #CyberMonday \n https://youtu.be/xjOxNiHUsZw",
+    "Join the Battle on Twitter! Turn your Twitter account into a #NetNeutrality Campaign Bot today! #SaveTheNetBot \n https://github.com/Save-Net-Neutrality/SaveNetNeutralityBot \n #BattleForTheNet #DoNotGoGentle \n https://youtu.be/u3CKgkyc7Qo"
   ]
 }
