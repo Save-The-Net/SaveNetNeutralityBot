@@ -24,12 +24,17 @@ const tweets = {
     }
   },
   howToFight: (numberOfTweets) => {
+    if(numberOfTweets > preparedTweets.knowledgeTweets.length) {
+      numberOfTweets = preparedTweets.knowledgeTweets.length;
+    }
     for(let i = 0; i < numberOfTweets; i++) {
       API.tweet(preparedTweets.knowledgeTweets[Math.floor(Math.random() * preparedTweets.knowledgeTweets.length)]);
     }
   },
   rageRageAgainstTheDyingOfTheLight: (numberOfTweets, all) => {
     if(all) {
+      numberOfTweets = preparedTweets.rageTweets.length;
+    } else if(numberOfTweets > preparedTweets.rageTweets.length) {
       numberOfTweets = preparedTweets.rageTweets.length;
     }
     for(let i = 0; i < numberOfTweets; i++) {
@@ -38,6 +43,14 @@ const tweets = {
       } else {
         API.tweet(preparedTweets.rageTweets[Math.floor(Math.random() * preparedTweets.rageTweets.length)]);
       }
+    }
+  },
+  tweetMedia: (numberOfTweets) => {
+    if(numberOfTweets > preparedTweets.mediaTweets.length) {
+      numberOfTweets = preparedTweets.mediaTweets.length;
+    }
+    for(let i = 0; i < numberOfTweets; i++) {
+      API.tweet(preparedTweets.mediaTweets[Math.floor(Math.random() * preparedTweets.mediaTweets.length)]);
     }
   }
 }
