@@ -19,7 +19,7 @@ module.exports = {
     "There are several ways to tell the FCC You Want To Keep #NetNeutrality FAX: 1-866-418-0232 CALL: 1-888-CALL-FCC emails for the members planning to vote to dismantle Ajit.Pai@fcc.gov, Mike.O'Rielly@fcc.gov, Brendan.Carr@fcc.gov #BattleForTheNet #Rage #RageAgainstTheDyingOfTheLight",
     "Have you called Congress today? https://www.battleforthenet.com/ Take Action Now Before It's To Late! Call and Retweet to #SaveTheNet #SaveNetNeutrality #NetNeutrality #SaveTheNetBot #DoNotGoGentleIntoThatGoodNight #Rage #RageAgainstTheDyingOfTheLight #CyberMonday",
     "Add your own #NetNeutrality Campaign Bot to Your Twitter Account. https://github.com/Save-Net-Neutrality/SaveNetNeutralityBot Keep the word moving with #SaveTheNetBot #SaveNetNeutrality #DoNotGoGentle #Rage #RageAgainstTheDyingOfTheLight #CyberMonday",
-    "The FCC tried to hide their #NetNeutrality complaint form behind pages of BS! John Oliver had a redirect created so YOU can go straight to it! https://www.gofccyourself.com #SaveTheNetBot #DoNotGoGentle https://youtu.be/92vuuZt7wak"
+    "The FCC tried to hide their #NetNeutrality complaint form behind pages of BS! John Oliver had a redirect created so YOU can go straight to it! http://www.gofccyourself.com/ #SaveTheNetBot #DoNotGoGentle https://youtu.be/92vuuZt7wak"
   ],
   rageTweets: [
     "Do not go gentle into that good night,\nOld age should burn and rave at close of day;\nRage, rage against the dying of the light.\n#DoNotGoGentle\n\n#BattleForTheNet #NetNeutrality #SaveNetNeutrality #SaveTheNetBot #CyberMonday https://www.battleforthenet.com/",
@@ -31,9 +31,10 @@ module.exports = {
   ],
   mediaTweets: [
     "Save the Net! Protect #NetNeutrality https://www.battleforthenet.com/ #BattleForTheNet #SaveTheNetBot #DoNotGoGentle #CyberMonday \n https://youtu.be/wQtiIazfoQM ",
-    "How many times do we have to do this? Here's John Oliver from 6 months ago, the last time we had to do this! Go complain --> https://www.gofccyourself.com #NetNeutrality #BattleForTheNet #SaveTheNetBot #DoNotGoGentle #CyberMonday \n https://youtu.be/92vuuZt7wak",
-    "Really? And we did this 3 years ago too! Don't stop standing up for your right to equal access of information! #NetNeutrality #BattleForTheNet #DoNotGoGentle #CyberMonday\n https://www.gofccyourself.com \n https://www.battleforthenet.com/ \n https://youtu.be/fpbOEoRrHyU",
+    "How many times do we have to do this? Here's John Oliver from 6 months ago, the last time we had to do this! Go complain --> http://www.gofccyourself.com/ #NetNeutrality #BattleForTheNet #SaveTheNetBot #DoNotGoGentle #CyberMonday \n https://youtu.be/92vuuZt7wak",
+    "Really? And we did this 3 years ago too! Don't stop standing up for your right to equal access of information! #NetNeutrality #BattleForTheNet #DoNotGoGentle #CyberMonday\n http://www.gofccyourself.com/ \n https://www.battleforthenet.com/ \n https://youtu.be/fpbOEoRrHyU",
     "Take it from the Wall Street Journal, #NetNeutrality is good thing! Go here and tell your congressman you agree today --> https://www.battleforthenet.com/ #SaveTheNetBot #BattleForTheNet #DoNotGoGentle #CyberMonday \n https://youtu.be/p90McT24Z6w",
-    "Take it from #AdamKnowsEverything, we need #NetNeutrality Go here and tell your congress people you agree --> https://www.battleforthenet.com/ #SaveNetNeutrality #SaveTheNetBot #DoNotGoGentle #CyberMonday \n https://youtu.be/xjOxNiHUsZw"
+    "Take it from #AdamKnowsEverything, we need #NetNeutrality Go here and tell your congress people you agree --> https://www.battleforthenet.com/ #SaveNetNeutrality #SaveTheNetBot #DoNotGoGentle #CyberMonday \n https://youtu.be/xjOxNiHUsZw",
+    "Join the Battle on Twitter! Turn your Twitter account into a #NetNeutrality Campaign Bot today! #SaveTheNetBot \n https://github.com/Save-Net-Neutrality/SaveNetNeutralityBot \n #BattleForTheNet #DoNotGoGentle \n https://youtu.be/u3CKgkyc7Qo"
   ]
 }
