@@ -23,11 +23,11 @@ The accounts have been established for years, so using them to tweet and encoura
 * [Setting Up Your Twitter Bot](#twit-bot)
 * [Install Node](#node)
 * [Install Serverless](#serverless)
-* [Install-and-Configure-Git](#git)
-* [OK-Let's-Wire-It-Up!](#wire)
-* [AWS-Setup](#aws)
-* [Activate-the-Bot](#activate)
-* [The-Plan](#the-plan)
+* [Install and Configure Git](#git)
+* [OK Let's Wire It Up!](#wire)
+* [AWS Setup](#aws)
+* [Activate the Bot](#activate)
+* [The Plan](#the-plan)
 * [Coming Features](#soon)
 
 
