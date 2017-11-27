@@ -2,7 +2,7 @@ Join The Battle to Save The Net!
 ======
 
 ## Help Keep the Internet Free and Open, Turn Your Twitter Acccount Into a Net Neutrality Campaign Bot
-SaveNetNeutralityBot
+#SaveTheNetBot
 ------
 
 
