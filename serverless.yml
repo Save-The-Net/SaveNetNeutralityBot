@@ -27,8 +27,8 @@ provider:
   runtime: nodejs6.10
 
 # you can overwrite defaults here
-  stage: osmose
-  region: us-west-1
+  stage: dev
+  region: us-east-1
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:
@@ -47,8 +47,16 @@ provider:
 #            - "/*"
 
 # you can define service wide environment variables here
-#  environment:
-#    variable1: value1
+  environment:
+    CONSUMER_KEY: 
+    CONSUMER_SECRET: 
+    ACCESS_TOKEN: 
+    ACCESS_TOKEN_SECRET: 
+    HASH_TAGS: 1
+    FIGHT: 1
+    RAGE: 1
+    RAGE_OR_NOT_TO_RAGE: false
+    MEDIA: 1
 
 # custom:
 #   webpackIncludeModules: true
@@ -71,7 +79,7 @@ functions:
     handler: handler.saveTheWebBot
     events:
       - schedule:
-          rate: rate(25 minutes)
+          rate: rate(60 minutes)
           enabled: true
 
 #    The following are a few example events you can configure
